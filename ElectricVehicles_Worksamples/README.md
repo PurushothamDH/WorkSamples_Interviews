@@ -1,10 +1,10 @@
 # Dataset1 - ML + EDA Report
 
 These files are uploaded as interview work samples.  
-They demonstrate the complete analytics lifecycle for the Sample Superstore dataset.
+They demonstrate the complete analytics lifecycle for the relevent folder's dataset like Indian EV vehicles indutry ,Sample Super Store dataset etc.
 
-## Folder Contents
-- Dataset.xlsx                      → Raw datasource file
+## All Folders contains as same as below:
+- Dataset.xlsx                      → Raw datasource file which using for analytics
 - Dataset_EDA.pbix                  → Power BI report covering all analytics stages
 - EDA_Notebook                      → Exploratory analysis (PySpark, Pandas, Scikit, Matplotlib)
 - DiagAnalytics_Analytics_Notebook  → Diagnostic analytics (correlation, variance, root cause)
