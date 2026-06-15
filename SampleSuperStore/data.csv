@@ -1,0 +1,394 @@
+﻿Segment,Category,Sub-Category,Product ID,Order ID,Region,State,City,ShippingDelays,Avg_ShipDelay
+Consumer,Furniture,Bookcases,FUR-BO-10000468,US-2026-116946,West,Colorado,Parker,4,0.0001
+Consumer,Furniture,Bookcases,FUR-BO-10001972,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Furniture,Bookcases,FUR-BO-10002206,US-2026-140585,West,California,Encinitas,5,0.0001
+Consumer,Furniture,Bookcases,FUR-BO-10002598,US-2026-166926,West,Washington,Seattle,7,0.0002
+Consumer,Furniture,Bookcases,FUR-BO-10003159,US-2026-117324,Central,Wisconsin,Madison,5,0.0001
+Consumer,Furniture,Bookcases,FUR-BO-10003441,US-2026-143259,East,New York,New York City,4,0.0001
+Consumer,Furniture,Bookcases,FUR-BO-10004015,US-2026-161480,East,New York,New York City,4,0.0001
+Consumer,Furniture,Bookcases,FUR-BO-10004709,US-2026-136539,Central,Texas,Round Rock,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10001146,US-2026-163510,South,Kentucky,Louisville,3,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10001270,US-2026-158526,South,Kentucky,Louisville,3,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10001708,US-2026-115602,East,New York,New York City,6,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10001854,US-2026-143756,South,Virginia,Salem,3,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10002335,US-2026-120376,Central,Michigan,Detroit,3,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10002439,US-2026-124296,South,Louisiana,Lafayette,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10002602,US-2026-113355,Central,Texas,Grand Prairie,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10002602,US-2026-158526,South,Kentucky,Louisville,3,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10002602,US-2026-169978,East,New York,Oceanside,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10002880,US-2026-118885,West,California,Los Angeles,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10002961,US-2026-160759,East,Pennsylvania,Philadelphia,6,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10003379,US-2026-122539,East,Pennsylvania,Philadelphia,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10003396,US-2026-167570,East,Pennsylvania,Philadelphia,7,0.0002
+Consumer,Furniture,Chairs,FUR-CH-10003817,US-2026-118003,East,New Jersey,Paterson,6,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10003846,US-2026-116855,South,Virginia,Chesapeake,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10003956,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10004495,US-2026-158526,South,Kentucky,Louisville,3,0.0001
+Consumer,Furniture,Chairs,FUR-CH-10004860,US-2026-118003,East,New Jersey,Paterson,6,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10000087,US-2026-140627,South,Tennessee,Hendersonville,4,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10000175,US-2026-136189,South,Virginia,Richmond,4,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10000308,US-2026-103443,East,New York,New York City,6,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10000320,US-2026-116946,West,Colorado,Parker,4,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10000820,US-2026-103415,Central,Texas,Houston,5,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10001037,US-2026-105886,East,New York,Oceanside,5,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10001473,US-2026-122770,West,California,San Francisco,5,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10001475,US-2026-110149,East,Pennsylvania,Philadelphia,3,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10001934,US-2026-126053,East,New York,New York City,3,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10002506,US-2026-118003,East,New Jersey,Paterson,6,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10003798,US-2026-127313,East,Pennsylvania,Philadelphia,3,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10004053,US-2026-118017,West,Colorado,Thornton,3,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10004093,CA-2026-135480,East,Quebec,Quebec City,7,0.0002
+Consumer,Furniture,Furnishings,FUR-FU-10004093,CA-2026-141531,East,Quebec,Quebec City,4,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10004093,US-2026-130631,West,Washington,Edmonds,4,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10004270,CA-2026-119508,West,British Columbia,Vancouver,5,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10004270,US-2026-118017,West,Colorado,Thornton,3,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10004351,US-2026-118017,West,Colorado,Thornton,3,0.0001
+Consumer,Furniture,Furnishings,FUR-FU-10004963,US-2026-105620,South,Florida,Hialeah,3,0.0001
+Consumer,Furniture,Tables,FUR-TA-10000577,US-2026-113992,Central,Texas,Plano,5,0.0001
+Consumer,Furniture,Tables,FUR-TA-10002041,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Furniture,Tables,FUR-TA-10002645,US-2026-147669,East,Ohio,Fairfield,5,0.0001
+Consumer,Furniture,Tables,FUR-TA-10002903,US-2026-150910,South,Tennessee,Jackson,6,0.0001
+Consumer,Furniture,Tables,FUR-TA-10003008,US-2026-142909,West,Arizona,Mesa,3,0.0001
+Consumer,Furniture,Tables,FUR-TA-10004256,US-2026-148446,West,Nevada,North Las Vegas,4,0.0001
+Consumer,Furniture,Tables,FUR-TA-10004534,US-2026-120376,Central,Michigan,Detroit,3,0.0001
+Consumer,Furniture,Tables,FUR-TA-10004915,US-2026-146164,Central,Minnesota,Rochester,4,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10000027,US-2026-154116,West,California,Inglewood,4,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10000159,US-2026-167920,South,Kentucky,Richmond,3,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10000358,US-2026-145233,West,Colorado,Denver,4,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10000891,US-2026-115602,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10001058,US-2026-155376,Central,Missouri,Independence,5,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10002350,US-2026-149510,South,North Carolina,Fayetteville,7,0.0002
+Consumer,Office Supplies,Appliances,OFF-AP-10003217,US-2026-116701,Central,Texas,Dallas,4,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10003266,US-2026-150910,South,Tennessee,Jackson,6,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10003590,US-2026-117324,Central,Wisconsin,Madison,5,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10003622,US-2026-153871,East,New Jersey,Plainfield,6,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10004249,US-2026-117933,East,New York,New York City,5,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10004487,US-2026-156664,East,Ohio,Columbus,5,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10004532,US-2026-130351,Central,Indiana,Columbus,3,0.0001
+Consumer,Office Supplies,Appliances,OFF-AP-10004540,US-2026-135587,South,Mississippi,Hattiesburg,5,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10000422,US-2026-140627,South,Tennessee,Hendersonville,4,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10000462,US-2026-115602,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10001246,US-2026-163405,West,California,Los Angeles,4,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10001315,US-2026-107384,Central,Minnesota,Rochester,4,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10001419,US-2026-150910,South,Tennessee,Jackson,6,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10001446,US-2026-108063,South,Virginia,Charlottesville,3,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10001615,US-2026-134194,Central,Texas,Dallas,7,0.0002
+Consumer,Office Supplies,Art,OFF-AR-10001958,US-2026-136539,Central,Texas,Round Rock,4,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10002280,US-2026-115602,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10003696,US-2026-158526,South,Kentucky,Louisville,3,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10003723,CA-2026-119508,West,British Columbia,Vancouver,5,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10003811,US-2026-163405,West,California,Los Angeles,4,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10003856,US-2026-118017,West,Colorado,Thornton,3,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10003903,US-2026-165715,South,North Carolina,Greensboro,6,0.0001
+Consumer,Office Supplies,Art,OFF-AR-10004441,US-2026-131961,East,Pennsylvania,Philadelphia,3,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10000014,US-2026-110149,East,Pennsylvania,Philadelphia,3,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10000050,US-2026-101798,East,New York,New York City,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10000088,US-2026-102659,Central,Michigan,Grand Rapids,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10000145,US-2026-131212,West,Washington,Bellevue,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10000605,US-2026-133431,West,California,San Francisco,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10000632,US-2026-147669,East,Ohio,Fairfield,5,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001116,US-2026-132927,East,Pennsylvania,Philadelphia,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001116,US-2026-134194,Central,Texas,Dallas,7,0.0002
+Consumer,Office Supplies,Binders,OFF-BI-10001510,US-2026-128160,West,California,San Francisco,5,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001524,US-2026-148691,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001553,US-2026-148691,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001597,US-2026-134194,Central,Texas,Dallas,7,0.0002
+Consumer,Office Supplies,Binders,OFF-BI-10001617,US-2026-103443,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001617,US-2026-131212,West,Washington,Bellevue,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001759,US-2026-122539,East,Pennsylvania,Philadelphia,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001900,US-2026-169978,East,New York,Oceanside,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10001922,US-2026-164826,East,New York,New York City,7,0.0002
+Consumer,Office Supplies,Binders,OFF-BI-10002003,US-2026-107461,South,South Carolina,Columbia,5,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10002414,US-2026-158526,South,Kentucky,Louisville,3,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10002498,US-2026-100230,East,New York,New York City,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10002764,US-2026-145233,West,Colorado,Denver,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10003274,US-2026-135860,Central,Michigan,Saginaw,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10003274,US-2026-167920,South,Kentucky,Richmond,3,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10003364,US-2026-140585,West,California,Encinitas,5,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10003429,US-2026-104927,Central,Texas,Houston,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10003429,US-2026-118542,West,California,Los Angeles,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10003650,US-2026-155075,East,Pennsylvania,Philadelphia,7,0.0002
+Consumer,Office Supplies,Binders,OFF-BI-10003684,US-2026-134194,Central,Texas,Dallas,7,0.0002
+Consumer,Office Supplies,Binders,OFF-BI-10003684,US-2026-143259,East,New York,New York City,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10003708,US-2026-154935,East,New York,New York City,5,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004040,CA-2026-143500,East,Prince Edward Island,Charlottetown,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004182,US-2026-129833,Central,Indiana,Indianapolis,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004209,US-2026-153871,East,New Jersey,Plainfield,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004209,US-2026-156664,East,Ohio,Columbus,5,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004233,US-2026-149510,South,North Carolina,Fayetteville,7,0.0002
+Consumer,Office Supplies,Binders,OFF-BI-10004236,US-2026-167920,South,Kentucky,Richmond,3,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004364,US-2026-156412,East,Pennsylvania,Philadelphia,4,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004600,US-2026-153871,East,New Jersey,Plainfield,6,0.0001
+Consumer,Office Supplies,Binders,OFF-BI-10004656,US-2026-111808,Central,Oklahoma,Tulsa,4,0.0001
+Consumer,Office Supplies,Fasteners,OFF-FA-10000089,CA-2026-135480,East,Quebec,Quebec City,7,0.0002
+Consumer,Office Supplies,Fasteners,OFF-FA-10000089,CA-2026-141531,East,Quebec,Quebec City,4,0.0001
+Consumer,Office Supplies,Fasteners,OFF-FA-10000089,US-2026-130631,West,Washington,Edmonds,4,0.0001
+Consumer,Office Supplies,Fasteners,OFF-FA-10000134,US-2026-135860,Central,Michigan,Saginaw,6,0.0001
+Consumer,Office Supplies,Fasteners,OFF-FA-10000585,US-2026-164826,East,New York,New York City,7,0.0002
+Consumer,Office Supplies,Fasteners,OFF-FA-10002975,US-2026-147669,East,Ohio,Fairfield,5,0.0001
+Consumer,Office Supplies,Fasteners,OFF-FA-10002988,US-2026-156664,East,Ohio,Columbus,5,0.0001
+Consumer,Office Supplies,Fasteners,OFF-FA-10003472,US-2026-156720,West,Colorado,Loveland,4,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10000248,US-2026-117128,East,New York,New York City,3,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10001297,US-2026-164826,East,New York,New York City,7,0.0002
+Consumer,Office Supplies,Labels,OFF-LA-10001317,US-2026-148691,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10001404,CA-2026-141082,East,Quebec,Montreal,4,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10001474,CA-2026-141082,East,Quebec,Montreal,4,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10003510,US-2026-117324,Central,Wisconsin,Madison,5,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10003766,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10003766,US-2026-126053,East,New York,New York City,3,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10004409,US-2026-167920,South,Kentucky,Richmond,3,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10004559,US-2026-122770,West,California,San Francisco,5,0.0001
+Consumer,Office Supplies,Labels,OFF-LA-10004853,US-2026-122539,East,Pennsylvania,Philadelphia,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10000007,US-2026-117128,East,New York,New York City,3,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10000019,US-2026-104927,Central,Texas,Houston,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10000176,US-2026-104927,Central,Texas,Houston,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10000232,US-2026-122770,West,California,San Francisco,5,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10000241,US-2026-160031,East,Ohio,Fairfield,3,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10000575,US-2026-129833,Central,Indiana,Indianapolis,6,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10001019,US-2026-103814,Central,Illinois,Park Ridge,7,0.0002
+Consumer,Office Supplies,Paper,OFF-PA-10001144,US-2026-165841,East,New Jersey,Paterson,7,0.0002
+Consumer,Office Supplies,Paper,OFF-PA-10001509,US-2026-106705,Central,Iowa,Burlington,6,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10001593,US-2026-166926,West,Washington,Seattle,7,0.0002
+Consumer,Office Supplies,Paper,OFF-PA-10001892,US-2026-149510,South,North Carolina,Fayetteville,7,0.0002
+Consumer,Office Supplies,Paper,OFF-PA-10001970,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10002137,US-2026-130351,Central,Indiana,Columbus,3,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10002222,US-2026-156664,East,Ohio,Columbus,5,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10002245,US-2026-100230,East,New York,New York City,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10002246,US-2026-118017,West,Colorado,Thornton,3,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10002615,US-2026-133431,West,California,San Francisco,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10002713,US-2026-117324,Central,Wisconsin,Madison,5,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10002893,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10003172,US-2026-122770,West,California,San Francisco,5,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10003724,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10003729,US-2026-123071,Central,Texas,Plano,3,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10004239,US-2026-122798,West,New Mexico,Albuquerque,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10004569,US-2026-154116,West,California,Inglewood,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10004735,US-2026-118542,West,California,Los Angeles,4,0.0001
+Consumer,Office Supplies,Paper,OFF-PA-10004965,US-2026-109715,Central,Illinois,Chicago,5,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10000532,US-2026-152660,Central,Illinois,Chicago,5,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10000563,US-2026-163510,South,Kentucky,Louisville,3,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10000585,US-2026-121195,Central,Texas,Dallas,3,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10000642,US-2026-135860,Central,Michigan,Saginaw,6,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10000918,US-2026-150910,South,Tennessee,Jackson,6,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10001097,US-2026-147956,West,Washington,Seattle,7,0.0002
+Consumer,Office Supplies,Storage,OFF-ST-10001228,US-2026-127313,East,Pennsylvania,Philadelphia,3,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10001228,US-2026-146164,Central,Minnesota,Rochester,4,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10001522,US-2026-135860,Central,Michigan,Saginaw,6,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10002276,US-2026-103443,East,New York,New York City,6,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10002554,US-2026-116946,West,Colorado,Parker,4,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10003058,US-2026-122798,West,New Mexico,Albuquerque,4,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10003208,US-2026-130309,South,Virginia,Arlington,4,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10004123,US-2026-140627,South,Tennessee,Hendersonville,4,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10004340,US-2026-144827,West,California,Costa Mesa,6,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10004459,US-2026-106782,Central,Indiana,Lafayette,6,0.0001
+Consumer,Office Supplies,Storage,OFF-ST-10004963,US-2026-167920,South,Kentucky,Richmond,3,0.0001
+Consumer,Office Supplies,Supplies,OFF-SU-10000898,US-2026-165841,East,New Jersey,Paterson,7,0.0002
+Consumer,Office Supplies,Supplies,OFF-SU-10000946,US-2026-134194,Central,Texas,Dallas,7,0.0002
+Consumer,Office Supplies,Supplies,OFF-SU-10004782,US-2026-118017,West,Colorado,Thornton,3,0.0001
+Consumer,Technology,Accessories,TEC-AC-10000158,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Technology,Accessories,TEC-AC-10000844,US-2026-120376,Central,Michigan,Detroit,3,0.0001
+Consumer,Technology,Accessories,TEC-AC-10001013,US-2026-150910,South,Tennessee,Jackson,6,0.0001
+Consumer,Technology,Accessories,TEC-AC-10001013,US-2026-167920,South,Kentucky,Richmond,3,0.0001
+Consumer,Technology,Accessories,TEC-AC-10001114,US-2026-120376,Central,Michigan,Detroit,3,0.0001
+Consumer,Technology,Accessories,TEC-AC-10001266,US-2026-135587,South,Mississippi,Hattiesburg,5,0.0001
+Consumer,Technology,Accessories,TEC-AC-10001539,US-2026-107384,Central,Minnesota,Rochester,4,0.0001
+Consumer,Technology,Accessories,TEC-AC-10001998,US-2026-101798,East,New York,New York City,4,0.0001
+Consumer,Technology,Accessories,TEC-AC-10002006,US-2026-118017,West,Colorado,Thornton,3,0.0001
+Consumer,Technology,Accessories,TEC-AC-10002473,US-2026-147669,East,Ohio,Fairfield,5,0.0001
+Consumer,Technology,Accessories,TEC-AC-10003023,US-2026-117324,Central,Wisconsin,Madison,5,0.0001
+Consumer,Technology,Accessories,TEC-AC-10003116,US-2026-109589,South,Kentucky,Bowling Green,3,0.0001
+Consumer,Technology,Accessories,TEC-AC-10003116,US-2026-157651,East,Pennsylvania,Philadelphia,4,0.0001
+Consumer,Technology,Accessories,TEC-AC-10003237,US-2026-108756,East,New Jersey,East Orange,4,0.0001
+Consumer,Technology,Accessories,TEC-AC-10003610,US-2026-140585,West,California,Encinitas,5,0.0001
+Consumer,Technology,Accessories,TEC-AC-10003832,US-2026-130351,Central,Indiana,Columbus,3,0.0001
+Consumer,Technology,Accessories,TEC-AC-10004595,US-2026-107384,Central,Minnesota,Rochester,4,0.0001
+Consumer,Technology,Copiers,TEC-CO-10001046,US-2026-167920,South,Kentucky,Richmond,3,0.0001
+Consumer,Technology,Copiers,TEC-CO-10004115,US-2026-117457,West,California,San Francisco,4,0.0001
+Consumer,Technology,Machines,TEC-MA-10001856,US-2026-109183,South,Tennessee,Nashville,5,0.0001
+Consumer,Technology,Machines,TEC-MA-10003183,US-2026-124296,South,Louisiana,Lafayette,4,0.0001
+Consumer,Technology,Machines,TEC-MA-10004626,US-2026-105620,South,Florida,Hialeah,3,0.0001
+Consumer,Technology,Phones,TEC-PH-10000347,US-2026-164826,East,New York,New York City,7,0.0002
+Consumer,Technology,Phones,TEC-PH-10000576,US-2026-148691,East,New York,New York City,6,0.0001
+Consumer,Technology,Phones,TEC-PH-10000586,US-2026-145233,West,Colorado,Denver,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10000675,US-2026-154116,West,California,Inglewood,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10001254,US-2026-145233,West,Colorado,Denver,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10001700,US-2026-135860,Central,Michigan,Saginaw,6,0.0001
+Consumer,Technology,Phones,TEC-PH-10001795,US-2026-160885,Central,Nebraska,Omaha,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10001918,US-2026-108329,West,California,Whittier,5,0.0001
+Consumer,Technology,Phones,TEC-PH-10001924,US-2026-131961,East,Pennsylvania,Philadelphia,3,0.0001
+Consumer,Technology,Phones,TEC-PH-10002103,US-2026-165841,East,New Jersey,Paterson,7,0.0002
+Consumer,Technology,Phones,TEC-PH-10002496,US-2026-137099,West,California,Los Angeles,3,0.0001
+Consumer,Technology,Phones,TEC-PH-10002563,US-2026-118885,West,California,Los Angeles,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10004522,US-2026-100230,East,New York,New York City,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10004774,US-2026-143259,East,New York,New York City,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10004912,US-2026-113355,Central,Texas,Grand Prairie,4,0.0001
+Consumer,Technology,Phones,TEC-PH-10004977,US-2026-145233,West,Colorado,Denver,4,0.0001
+Corporate,Furniture,Bookcases,FUR-BO-10003546,US-2026-112347,West,Colorado,Denver,4,0.0001
+Corporate,Furniture,Bookcases,FUR-BO-10003660,US-2026-119578,East,Rhode Island,Providence,5,0.0001
+Corporate,Furniture,Bookcases,FUR-BO-10004015,US-2026-135377,East,New York,New York City,5,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10000225,US-2026-168389,South,Florida,Jacksonville,6,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10000847,US-2026-139199,Central,Michigan,Detroit,4,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10002335,US-2026-112347,West,Colorado,Denver,4,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10002774,US-2026-137428,West,California,Oceanside,5,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10003817,US-2026-137428,West,California,Oceanside,5,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10003968,US-2026-101322,West,California,Long Beach,3,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10004540,US-2026-117667,East,Pennsylvania,Philadelphia,5,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10004698,US-2026-163860,Central,Illinois,Peoria,4,0.0001
+Corporate,Furniture,Chairs,FUR-CH-10004983,US-2026-102379,West,California,Oakland,4,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10000023,US-2026-101805,West,Washington,Seattle,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10000521,US-2026-105235,East,New York,New York City,6,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10001057,US-2026-143252,Central,Wisconsin,Milwaukee,6,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10001487,US-2026-105235,East,New York,New York City,6,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10001488,US-2026-112347,West,Colorado,Denver,4,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10001602,US-2026-169411,East,New York,Rochester,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10001934,US-2026-146780,East,New York,New York City,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10001935,US-2026-129805,West,Washington,Seattle,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10001935,US-2026-163860,Central,Illinois,Peoria,4,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10002364,US-2026-135503,South,South Carolina,North Charleston,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10002445,US-2026-137428,West,California,Oceanside,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10002501,CA-2026-124626,East,Newfoundland and Labrador,St. John's,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10002501,CA-2026-146626,East,Newfoundland and Labrador,St. John's,7,0.0002
+Corporate,Furniture,Furnishings,FUR-FU-10002501,US-2026-146626,West,California,Anaheim,7,0.0002
+Corporate,Furniture,Furnishings,FUR-FU-10002759,CA-2026-106541,East,New Brunswick,Moncton,4,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10003708,US-2026-127929,East,Connecticut,Middletown,4,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10004093,US-2026-117667,East,Pennsylvania,Philadelphia,5,0.0001
+Corporate,Furniture,Furnishings,FUR-FU-10004586,US-2026-163860,Central,Illinois,Peoria,4,0.0001
+Corporate,Furniture,Tables,FUR-TA-10004289,US-2026-168389,South,Florida,Jacksonville,6,0.0001
+Corporate,Office Supplies,Appliances,OFF-AP-10001271,US-2026-105235,East,New York,New York City,6,0.0001
+Corporate,Office Supplies,Appliances,OFF-AP-10002670,US-2026-117926,West,California,San Francisco,4,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10000369,US-2026-115931,West,New Mexico,Carlsbad,4,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10000716,US-2026-117667,East,Pennsylvania,Philadelphia,5,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10000817,US-2026-104108,Central,Texas,Houston,7,0.0002
+Corporate,Office Supplies,Art,OFF-AR-10000823,US-2026-136063,Central,Illinois,Oak Park,4,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10000940,CA-2026-145612,East,New Brunswick,Moncton,4,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10001662,US-2026-157469,East,Ohio,Lakewood,5,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10001958,US-2026-168389,South,Florida,Jacksonville,6,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10001988,US-2026-137463,West,California,Sunnyvale,4,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10003183,US-2026-164000,East,Pennsylvania,Philadelphia,4,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10004022,US-2026-102379,West,California,Oakland,4,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10004344,US-2026-164917,South,Florida,Miami,5,0.0001
+Corporate,Office Supplies,Art,OFF-AR-10004757,US-2026-148012,East,Pennsylvania,Philadelphia,6,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10000201,US-2026-148355,East,Massachusetts,New Bedford,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10000279,US-2026-139402,West,Arizona,Phoenix,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10001097,US-2026-167150,West,California,San Diego,7,0.0002
+Corporate,Office Supplies,Binders,OFF-BI-10001120,US-2026-122714,Central,Illinois,Chicago,6,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10001524,US-2026-102197,East,New York,New York City,6,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10001597,US-2026-167150,West,California,San Diego,7,0.0002
+Corporate,Office Supplies,Binders,OFF-BI-10001670,US-2026-108854,West,California,San Francisco,6,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10001679,US-2026-163671,West,Idaho,Meridian,6,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10001718,US-2026-121398,West,California,Los Angeles,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10002003,US-2026-101805,West,Washington,Seattle,5,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10002103,US-2026-115427,West,California,Fairfield,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10002813,US-2026-162068,West,Colorado,Loveland,3,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10002854,US-2026-108854,West,California,San Francisco,6,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10002949,US-2026-137428,West,California,Oceanside,5,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10003196,US-2026-137463,West,California,Sunnyvale,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10003291,US-2026-105480,East,New York,Rochester,6,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10003314,US-2026-162880,West,Washington,Everett,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10003707,US-2026-112347,West,Colorado,Denver,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10003784,US-2026-163860,Central,Illinois,Peoria,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10003982,US-2026-139199,Central,Michigan,Detroit,4,0.0001
+Corporate,Office Supplies,Binders,OFF-BI-10004632,US-2026-115427,West,California,Fairfield,4,0.0001
+Corporate,Office Supplies,Envelopes,OFF-EN-10001453,US-2026-162670,South,Arkansas,Little Rock,5,0.0001
+Corporate,Office Supplies,Envelopes,OFF-EN-10004386,US-2026-145366,East,Ohio,Cincinnati,4,0.0001
+Corporate,Office Supplies,Fasteners,OFF-FA-10000611,US-2026-134285,Central,Texas,San Antonio,5,0.0001
+Corporate,Office Supplies,Labels,OFF-LA-10001404,US-2026-115931,West,New Mexico,Carlsbad,4,0.0001
+Corporate,Office Supplies,Labels,OFF-LA-10003498,US-2026-137463,West,California,Sunnyvale,4,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10000304,US-2026-134285,Central,Texas,San Antonio,5,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10000520,US-2026-138618,Central,Texas,San Antonio,7,0.0002
+Corporate,Office Supplies,Paper,OFF-PA-10000994,US-2026-158673,Central,Michigan,Grand Rapids,6,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10001293,US-2026-139199,Central,Michigan,Detroit,4,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10001970,US-2026-102197,East,New York,New York City,6,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10001972,US-2026-148355,East,Massachusetts,New Bedford,4,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10001994,US-2026-162670,South,Arkansas,Little Rock,5,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10002709,US-2026-117667,East,Pennsylvania,Philadelphia,5,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10002787,US-2026-105480,East,New York,Rochester,6,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10003022,US-2026-108854,West,California,San Francisco,6,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10003893,US-2026-116715,West,California,San Francisco,3,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10004156,US-2026-102197,East,New York,New York City,6,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10004285,US-2026-136238,Central,Texas,Odessa,6,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10004359,US-2026-139402,West,Arizona,Phoenix,4,0.0001
+Corporate,Office Supplies,Paper,OFF-PA-10004475,US-2026-116715,West,California,San Francisco,3,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10000876,US-2026-115931,West,New Mexico,Carlsbad,4,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10001031,US-2026-155362,Central,Wisconsin,Eau Claire,4,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10001328,US-2026-162670,South,Arkansas,Little Rock,5,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10001522,US-2026-162670,South,Arkansas,Little Rock,5,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10001526,US-2026-120936,West,California,Anaheim,4,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10001837,US-2026-108854,West,California,San Francisco,6,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10002756,US-2026-101805,West,Washington,Seattle,5,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10002756,US-2026-121398,West,California,Los Angeles,4,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10003208,US-2026-163979,West,California,San Francisco,5,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10003306,US-2026-112347,West,Colorado,Denver,4,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10003306,US-2026-138380,West,California,Oakland,4,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10004180,US-2026-145366,East,Ohio,Cincinnati,4,0.0001
+Corporate,Office Supplies,Storage,OFF-ST-10004340,US-2026-116715,West,California,San Francisco,3,0.0001
+Corporate,Office Supplies,Supplies,OFF-SU-10002557,US-2026-120936,West,California,Anaheim,4,0.0001
+Corporate,Office Supplies,Supplies,OFF-SU-10003505,US-2026-119578,East,Rhode Island,Providence,5,0.0001
+Corporate,Technology,Accessories,TEC-AC-10000057,US-2026-137463,West,California,Sunnyvale,4,0.0001
+Corporate,Technology,Accessories,TEC-AC-10000358,US-2026-137463,West,California,Sunnyvale,4,0.0001
+Corporate,Technology,Accessories,TEC-AC-10000580,US-2026-117667,East,Pennsylvania,Philadelphia,5,0.0001
+Corporate,Technology,Accessories,TEC-AC-10001013,US-2026-104066,East,Vermont,Burlington,5,0.0001
+Corporate,Technology,Accessories,TEC-AC-10002331,US-2026-143252,Central,Wisconsin,Milwaukee,6,0.0001
+Corporate,Technology,Accessories,TEC-AC-10003038,US-2026-147333,South,Arkansas,Fayetteville,6,0.0001
+Corporate,Technology,Accessories,TEC-AC-10004469,US-2026-147333,South,Arkansas,Fayetteville,6,0.0001
+Corporate,Technology,Phones,TEC-PH-10000213,US-2026-112347,West,Colorado,Denver,4,0.0001
+Corporate,Technology,Phones,TEC-PH-10001300,US-2026-115931,West,New Mexico,Carlsbad,4,0.0001
+Corporate,Technology,Phones,TEC-PH-10001448,US-2026-102379,West,California,Oakland,4,0.0001
+Corporate,Technology,Phones,TEC-PH-10001527,US-2026-129581,East,Massachusetts,New Bedford,7,0.0002
+Corporate,Technology,Phones,TEC-PH-10003555,US-2026-168389,South,Florida,Jacksonville,6,0.0001
+Corporate,Technology,Phones,TEC-PH-10003601,US-2026-162670,South,Arkansas,Little Rock,5,0.0001
+Corporate,Technology,Phones,TEC-PH-10004531,US-2026-157469,East,Ohio,Lakewood,5,0.0001
+Corporate,Technology,Phones,TEC-PH-10004833,US-2026-112347,West,Colorado,Denver,4,0.0001
+Home Office,Furniture,Chairs,FUR-CH-10000155,US-2026-143245,East,Connecticut,Fairfield,5,0.0001
+Home Office,Furniture,Chairs,FUR-CH-10001394,US-2026-128734,West,Arizona,Chandler,7,0.0002
+Home Office,Furniture,Chairs,FUR-CH-10002647,US-2026-100412,South,Alabama,Tuscaloosa,4,0.0001
+Home Office,Furniture,Furnishings,FUR-FU-10001473,US-2026-110625,East,Connecticut,Danbury,7,0.0002
+Home Office,Furniture,Furnishings,FUR-FU-10001588,CA-2026-105471,East,Nova Scotia,Halifax,4,0.0001
+Home Office,Furniture,Furnishings,FUR-FU-10001731,US-2026-128734,West,Arizona,Chandler,7,0.0002
+Home Office,Furniture,Furnishings,FUR-FU-10002963,US-2026-122595,Central,Illinois,Chicago,6,0.0001
+Home Office,Furniture,Furnishings,FUR-FU-10003096,US-2026-119564,West,Washington,Seattle,5,0.0001
+Home Office,Furniture,Furnishings,FUR-FU-10003394,US-2026-103968,West,California,Stockton,6,0.0001
+Home Office,Furniture,Furnishings,FUR-FU-10004963,US-2026-169859,West,California,San Diego,4,0.0001
+Home Office,Furniture,Tables,FUR-TA-10002958,US-2026-143126,West,Washington,Seattle,4,0.0001
+Home Office,Furniture,Tables,FUR-TA-10003473,CA-2026-151799,East,Ontario,Toronto,4,0.0001
+Home Office,Furniture,Tables,FUR-TA-10003473,US-2026-151799,East,Massachusetts,Lawrence,4,0.0001
+Home Office,Furniture,Tables,FUR-TA-10003748,US-2026-102407,West,California,Los Angeles,4,0.0001
+Home Office,Office Supplies,Appliances,OFF-AP-10001394,US-2026-102407,West,California,Los Angeles,4,0.0001
+Home Office,Office Supplies,Appliances,OFF-AP-10002457,US-2026-126221,Central,Indiana,Columbus,6,0.0001
+Home Office,Office Supplies,Art,OFF-AR-10000122,US-2026-102407,West,California,Los Angeles,4,0.0001
+Home Office,Office Supplies,Art,OFF-AR-10002578,US-2026-158736,West,California,San Francisco,6,0.0001
+Home Office,Office Supplies,Art,OFF-AR-10004707,US-2026-135111,Central,North Dakota,Fargo,5,0.0001
+Home Office,Office Supplies,Binders,OFF-BI-10000174,US-2026-169859,West,California,San Diego,4,0.0001
+Home Office,Office Supplies,Binders,OFF-BI-10000320,US-2026-106964,West,California,Los Angeles,3,0.0001
+Home Office,Office Supplies,Binders,OFF-BI-10000494,US-2026-112487,East,Ohio,Columbus,4,0.0001
+Home Office,Office Supplies,Binders,OFF-BI-10001628,US-2026-104381,East,New York,Rochester,7,0.0002
+Home Office,Office Supplies,Binders,OFF-BI-10002012,US-2026-142776,Central,Iowa,Burlington,3,0.0001
+Home Office,Office Supplies,Binders,OFF-BI-10002429,US-2026-155089,South,Florida,Tampa,4,0.0001
+Home Office,Office Supplies,Binders,OFF-BI-10003476,US-2026-148922,South,Mississippi,Jackson,5,0.0001
+Home Office,Office Supplies,Binders,OFF-BI-10004040,US-2026-135111,Central,North Dakota,Fargo,5,0.0001
+Home Office,Office Supplies,Envelopes,OFF-EN-10000461,US-2026-169859,West,California,San Diego,4,0.0001
+Home Office,Office Supplies,Envelopes,OFF-EN-10003040,US-2026-144862,East,Pennsylvania,Philadelphia,4,0.0001
+Home Office,Office Supplies,Envelopes,OFF-EN-10003160,US-2026-142776,Central,Iowa,Burlington,3,0.0001
+Home Office,Office Supplies,Fasteners,OFF-FA-10001332,CA-2026-151799,East,Ontario,Toronto,4,0.0001
+Home Office,Office Supplies,Fasteners,OFF-FA-10001332,US-2026-151799,East,Massachusetts,Lawrence,4,0.0001
+Home Office,Office Supplies,Fasteners,OFF-FA-10003059,US-2026-114055,South,Alabama,Huntsville,4,0.0001
+Home Office,Office Supplies,Paper,OFF-PA-10000380,US-2026-142328,West,California,San Francisco,7,0.0002
+Home Office,Office Supplies,Paper,OFF-PA-10000994,US-2026-114055,South,Alabama,Huntsville,4,0.0001
+Home Office,Office Supplies,Paper,OFF-PA-10001745,US-2026-107342,Central,Indiana,Columbus,5,0.0001
+Home Office,Office Supplies,Paper,OFF-PA-10001972,US-2026-143245,East,Connecticut,Fairfield,5,0.0001
+Home Office,Office Supplies,Paper,OFF-PA-10002986,US-2026-161578,West,California,Los Angeles,5,0.0001
+Home Office,Office Supplies,Paper,OFF-PA-10004381,US-2026-114055,South,Alabama,Huntsville,4,0.0001
+Home Office,Office Supplies,Storage,OFF-ST-10000736,US-2026-127516,South,Tennessee,Nashville,6,0.0001
+Home Office,Office Supplies,Storage,OFF-ST-10002289,US-2026-161578,West,California,Los Angeles,5,0.0001
+Home Office,Office Supplies,Storage,OFF-ST-10002790,CA-2026-151799,East,Ontario,Toronto,4,0.0001
+Home Office,Office Supplies,Storage,OFF-ST-10002790,US-2026-151799,East,Massachusetts,Lawrence,4,0.0001
+Home Office,Office Supplies,Supplies,OFF-SU-10001664,CA-2026-151799,East,Ontario,Toronto,4,0.0001
+Home Office,Office Supplies,Supplies,OFF-SU-10001664,US-2026-151799,East,Massachusetts,Lawrence,4,0.0001
+Home Office,Technology,Accessories,TEC-AC-10000474,US-2026-122595,Central,Illinois,Chicago,6,0.0001
+Home Office,Technology,Accessories,TEC-AC-10001838,US-2026-148922,South,Mississippi,Jackson,5,0.0001
+Home Office,Technology,Copiers,TEC-CO-10002313,CA-2026-151799,East,Ontario,Toronto,4,0.0001
+Home Office,Technology,Copiers,TEC-CO-10002313,US-2026-151799,East,Massachusetts,Lawrence,4,0.0001
+Home Office,Technology,Phones,TEC-PH-10000148,US-2026-148922,South,Mississippi,Jackson,5,0.0001
+Home Office,Technology,Phones,TEC-PH-10000923,US-2026-144862,East,Pennsylvania,Philadelphia,4,0.0001
+Home Office,Technology,Phones,TEC-PH-10002890,US-2026-114055,South,Alabama,Huntsville,4,0.0001
+Home Office,Technology,Phones,TEC-PH-10003095,US-2026-122595,Central,Illinois,Chicago,6,0.0001
