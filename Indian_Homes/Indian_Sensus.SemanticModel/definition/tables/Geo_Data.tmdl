@@ -1,0 +1,95 @@
+table Geo_Data
+	lineageTag: 8db2c324-973a-4f1c-935e-814283658a0e
+
+	measure 'Geo Population Density' =
+				
+			DIVIDE(
+			    SUM('Geo_Data'[Population]),
+			    SUM('Geo_Data'[Area]),
+			    0
+			)
+		lineageTag: aff90bc7-d2db-47d5-bd36-2e3def46743d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column State
+		dataType: string
+		lineageTag: 04ca9937-f4cf-4a42-a723-69b5186fac08
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: State
+
+		annotation SummarizationSetBy = Automatic
+
+	column District
+		dataType: string
+		lineageTag: f761c68b-f22c-4317-96fe-709a88dd7787
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: District
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 66673f85-1b64-4644-9f72-b992454c8b7f
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column Population
+		dataType: int64
+		formatString: 0
+		lineageTag: 30f124f9-2ab0-4dac-94ad-5805c6740964
+		summarizeBy: sum
+		sourceColumn: Population
+
+		annotation SummarizationSetBy = Automatic
+
+	column Area
+		dataType: double
+		lineageTag: 51b1fa86-3833-487e-a63d-8a5135c7fef8
+		summarizeBy: sum
+		sourceColumn: Area
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Latitude
+		dataType: double
+		lineageTag: e1fd3c01-1e15-4f79-95d2-d8a9ce0c02fb
+		summarizeBy: sum
+		sourceColumn: Latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Longitude
+		dataType: double
+		lineageTag: a0992bf1-3a0e-4a83-b49a-b773b168e272
+		summarizeBy: sum
+		sourceColumn: Longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Geo_Data = m
+		mode: import
+		source =
+				let
+					  Source = Csv.Document(File.Contents("C:\Users\dhpur\Documents\GitHub\Practices\PopulationData\final_cities.csv"), [Delimiter = ",", Columns = 7, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"State", type text}, {"District", type text}, {"City", type text}, {"Population", Int64.Type}, {"Area (in km^2)", type number}, {"Latitude", type number}, {"Longitude", type number}}, "en-US"),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed column type",{{"Area (in km^2)", "Area"}})
+				in
+				  #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

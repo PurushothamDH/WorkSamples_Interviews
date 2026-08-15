@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Indian_Sensus"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d1a55a2a-36e9-48cc-b33d-ce697d729e8a"
+  }
+}
