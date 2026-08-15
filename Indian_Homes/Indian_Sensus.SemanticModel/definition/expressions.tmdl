@@ -1,0 +1,19 @@
+expression WDI =
+		let
+		  Source = Csv.Document(File.Contents("C:\Users\dhpur\Documents\GitHub\Practices\Indian_Sensus\World Development Indicators.csv"), [Delimiter = ",", Columns = 71, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Country Name", type text}, {"Country Code", type text}, {"Indicator Name", type text}, {"Indicator Code", type text}, {"1960", Int64.Type}, {"1961", Int64.Type}, {"1962", Int64.Type}, {"1963", Int64.Type}, {"1964", Int64.Type}, {"1965", Int64.Type}, {"1966", Int64.Type}, {"1967", Int64.Type}, {"1968", Int64.Type}, {"1969", Int64.Type}, {"1970", Int64.Type}, {"1971", Int64.Type}, {"1972", Int64.Type}, {"1973", Int64.Type}, {"1974", Int64.Type}, {"1975", Int64.Type}, {"1976", Int64.Type}, {"1977", Int64.Type}, {"1978", Int64.Type}, {"1979", Int64.Type}, {"1980", Int64.Type}, {"1981", Int64.Type}, {"1982", Int64.Type}, {"1983", Int64.Type}, {"1984", Int64.Type}, {"1985", Int64.Type}, {"1986", Int64.Type}, {"1987", Int64.Type}, {"1988", Int64.Type}, {"1989", Int64.Type}, {"1990", Int64.Type}, {"1991", Int64.Type}, {"1992", Int64.Type}, {"1993", Int64.Type}, {"1994", Int64.Type}, {"1995", Int64.Type}, {"1996", Int64.Type}, {"1997", Int64.Type}, {"1998", Int64.Type}, {"1999", Int64.Type}, {"2000", Int64.Type}, {"2001", Int64.Type}, {"2002", Int64.Type}, {"2003", Int64.Type}, {"2004", Int64.Type}, {"2005", Int64.Type}, {"2006", Int64.Type}, {"2007", Int64.Type}, {"2008", Int64.Type}, {"2009", Int64.Type}, {"2010", Int64.Type}, {"2011", Int64.Type}, {"2012", Int64.Type}, {"2013", Int64.Type}, {"2014", Int64.Type}, {"2015", Int64.Type}, {"2016", Int64.Type}, {"2017", Int64.Type}, {"2018", Int64.Type}, {"2019", Int64.Type}, {"2020", Int64.Type}, {"2021", Int64.Type}, {"2022", Int64.Type}, {"2023", Int64.Type}, {"2024", Int64.Type}, {"2025", Int64.Type}, {"", type text}}),
+		    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Indicator Name", "Indicator Code"}),
+		    #"Unpivoted Other Columns" = Table.UnpivotOtherColumns(#"Removed Columns", {"Country Name", "Country Code"}, "Attribute", "Population Value"),
+		    #"Demoted Headers" = Table.DemoteHeaders(#"Unpivoted Other Columns"),
+		    #"Changed Type1" = Table.TransformColumnTypes(#"Demoted Headers",{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type any}}),
+		    #"Promoted Headers1" = Table.PromoteHeaders(#"Changed Type1", [PromoteAllScalars=true]),
+		    #"Changed Type2" = Table.TransformColumnTypes(#"Promoted Headers1",{{"Country Name", type text}, {"Country Code", type text}, {"Attribute", Int64.Type}, {"Population Value", Int64.Type}})
+		in
+		    #"Changed Type2"
+	lineageTag: de1790ad-5219-43aa-8da9-ac539ecd68cf
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

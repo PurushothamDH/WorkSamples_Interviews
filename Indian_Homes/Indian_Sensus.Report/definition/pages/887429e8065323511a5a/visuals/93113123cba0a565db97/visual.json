@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "93113123cba0a565db97",
+  "position": {
+    "x": 306.06649663198692,
+    "y": 37.088052780917678,
+    "z": 0,
+    "height": 300,
+    "width": 300
+  },
+  "visual": {
+    "visualType": "columnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Geo_Data"
+                    }
+                  },
+                  "Property": "City"
+                }
+              },
+              "queryRef": "Geo_Data.City",
+              "nativeQueryRef": "City"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Geo_Data"
+                    }
+                  },
+                  "Property": "Area"
+                }
+              },
+              "queryRef": "Geo_Data.Area",
+              "nativeQueryRef": "Area",
+              "aggregation": "Sum"
+            }
+          ]
+        }
+      }
+    },
+    "sort": [
+      {
+        "queryRef": "Geo_Data.Area",
+        "direction": "desc"
+      }
+    ],
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "title": [
+        {
+          "properties": {
+            "text": "City vs Area",
+            "fontSize": 8
+          }
+        }
+      ],
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": false,
+            "direction": "asc",
+            "invertAxis": false
+          }
+        }
+      ]
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "filterType": "TopN",
+        "target": {
+          "table": "Geo_Data",
+          "column": "City"
+        },
+        "by": {
+          "queryRef": "Geo_Data.Area",
+          "aggregation": "Sum"
+        },
+        "top": 30,
+        "order": "Descending"
+      }
+    ]
+  }
+}
