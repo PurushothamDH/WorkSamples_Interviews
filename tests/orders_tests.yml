@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: orders_clean
+    tests:
+      - not_null:
+          column_name: Sales
+      - unique:
+          column_name: Order_ID

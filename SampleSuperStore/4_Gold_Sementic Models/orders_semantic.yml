@@ -1,0 +1,20 @@
+version: 2
+
+semantic_models:
+  - name: orders_summary_semantic
+    model: ref('orders_summary')
+    description: "Customer level sales and profit summary"
+    entities:
+      - name: customer
+        type: primary
+        expr: Customer_Name
+    measures:
+      - name: total_sales
+        agg: sum
+        expr: Total_Sales
+      - name: total_profit
+        agg: sum
+        expr: Total_Profit
+      - name: order_count
+        agg: count
+        expr: Order_Count
