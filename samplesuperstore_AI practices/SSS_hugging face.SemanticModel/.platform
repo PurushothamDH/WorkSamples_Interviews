@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "SSS_hugging face"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c9639018-5abd-46b3-8355-8e58dffa0b76"
+  }
+}
