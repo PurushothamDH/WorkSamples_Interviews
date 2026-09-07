@@ -1,0 +1,5 @@
+{
+    "editor.defaultFormatter": "vscode.ipynb",
+    "notebook.defaultFormatter": "vscode.ipynb",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

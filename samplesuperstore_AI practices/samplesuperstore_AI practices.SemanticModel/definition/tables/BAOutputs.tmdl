@@ -1,0 +1,81 @@
+table BAOutputs
+	lineageTag: 14dd2b95-9a78-42d7-8b17-8d1f5ed5a1d4
+
+	column region
+		dataType: string
+		lineageTag: acd4901a-9a8f-4f68-aadb-b94d2a5a30f7
+		summarizeBy: none
+		sourceColumn: region
+
+	column state
+		dataType: string
+		lineageTag: abb9e6e2-7df2-48ad-8b2b-42ebdcfc5c81
+		summarizeBy: none
+		sourceColumn: state
+
+	column city
+		dataType: string
+		lineageTag: 3f144c0c-467d-4369-b84a-1caecfdc76c9
+		summarizeBy: none
+		sourceColumn: city
+
+	column category
+		dataType: string
+		lineageTag: 2092aa7c-9d5d-406e-8c52-8f2d633a7c94
+		summarizeBy: none
+		sourceColumn: category
+
+	column subCategory
+		dataType: string
+		lineageTag: 9a72d538-eaf8-44d9-9b83-44b743c549d2
+		summarizeBy: none
+		sourceColumn: subCategory
+
+	column productid
+		dataType: string
+		lineageTag: 10fc8a46-0145-4568-8f2a-3c3cb7debcaa
+		summarizeBy: none
+		sourceColumn: productid
+
+	column why_1
+		dataType: string
+		lineageTag: baa23bcd-3b3b-4f09-b634-981c78ab57db
+		summarizeBy: none
+		sourceColumn: why_1
+
+	column why_2
+		dataType: string
+		lineageTag: 920e6416-6911-42f5-b1db-454043fe6993
+		summarizeBy: none
+		sourceColumn: why_2
+
+	column why_3
+		dataType: string
+		lineageTag: b18df818-8bde-48dd-88a3-16912773f0e5
+		summarizeBy: none
+		sourceColumn: why_3
+
+	column why_4
+		dataType: string
+		lineageTag: 943f80ef-d69f-449b-b76e-cdfe80a33d88
+		summarizeBy: none
+		sourceColumn: why_4
+
+	column why_5
+		dataType: string
+		lineageTag: 36ce0d17-35e8-4c20-a3cd-46fc0000f7ff
+		summarizeBy: none
+		sourceColumn: why_5
+
+	partition BAOutputs = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\dhpur\Desktop\WorkSamples_Interviews\samplesuperstore_AI practices\BusinessAnalysis_Practices\LowerSales.xlsx"), null, true),
+				  Sheet = Source{[Item = "Lower Sales", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(Sheet, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"region", type text}, {"state", type text}, {"city", type text}, {"category", type text}, {"subCategory", type text}, {"productid", type text}, {"why_1", type text}, {"why_2", type text}, {"why_3", type text}, {"why_4", type text}, {"why_5", type text}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table

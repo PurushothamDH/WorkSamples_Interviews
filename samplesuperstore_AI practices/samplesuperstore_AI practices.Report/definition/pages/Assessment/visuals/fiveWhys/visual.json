@@ -1,0 +1,177 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "fiveWhys",
+  "position": {
+    "x": 1320,
+    "y": 40,
+    "z": 5,
+    "height": 300,
+    "width": 600
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "region"
+                }
+              },
+              "queryRef": "BAOutputs.region",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "state"
+                }
+              },
+              "queryRef": "BAOutputs.state",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "city"
+                }
+              },
+              "queryRef": "BAOutputs.city",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "category"
+                }
+              },
+              "queryRef": "BAOutputs.category",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "subCategory"
+                }
+              },
+              "queryRef": "BAOutputs.subCategory",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "productid"
+                }
+              },
+              "queryRef": "BAOutputs.productid",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "why_1"
+                }
+              },
+              "queryRef": "BAOutputs.why_1",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "why_2"
+                }
+              },
+              "queryRef": "BAOutputs.why_2",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "why_3"
+                }
+              },
+              "queryRef": "BAOutputs.why_3",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "why_4"
+                }
+              },
+              "queryRef": "BAOutputs.why_4",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BAOutputs"
+                    }
+                  },
+                  "Property": "why_5"
+                }
+              },
+              "queryRef": "BAOutputs.why_5",
+              "active": false
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
