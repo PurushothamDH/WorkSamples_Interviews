@@ -1,0 +1,4 @@
+
+# Large data files excluded from git (exceed GitHub 100MB limit)
+contoso/1_Datamodeling/fact_sales.csv
+contoso/1_Datamodeling/fact_strategy_plan.csv
