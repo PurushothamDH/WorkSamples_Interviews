@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # DBTITLE 1,MasterAgent Overview
 # MAGIC %md
 # MAGIC # MasterAgent — Multi-Agent Orchestrator
@@ -110,16 +114,114 @@ class MasterAgent:
 
 # DBTITLE 1,Execute Pipeline (commented)
 # ── Execute Pipeline ──────────────────────────────────────
-# Uncomment and update the table names to run the full pipeline.
-#
-# master = MasterAgent(spark)
-# results = master.run(
-#     bronze_table="catalog.schema.bronze_lifeexpectancy",
-#     target_column="life_expectancy",
-#     silver_table="catalog.schema.silver_lifeexpectancy",
-#     gold_table="catalog.schema.gold_lifeexpectancy_predictions",
-#     categorical_cols=["country", "status"],
-# )
+master = MasterAgent(spark)
+results = master.run(
+    bronze_table="lifeexpectancy.brone_lifeexpectancy.life_expectancy",
+    target_column="Life_expectancy",
+    silver_table="lifeexpectancy.silver.life_expectancy",
+    gold_table="lifeexpectancy.silver.life_expectancy_ml_predictions",
+    categorical_cols=None,
+)
 
 # COMMAND ----------
 
+# DBTITLE 1,Persist Agent Results as Delta Tables
+# ── Persist EDA & Diagnostic Results as Delta Tables for PBI ──
+# Converts the in-memory `results` dict into queryable Delta tables
+# Uses CREATE OR REPLACE TABLE to safely refresh results each run
+
+from pyspark.sql.types import *
+
+# Helper: save a list of dicts as a Delta table via CREATE OR REPLACE
+def save_as_table(data_rows, table_name):
+    """Create or replace a Delta table from a list of Python dicts."""
+    if not data_rows:
+        print(f"Skipped (no data): {table_name}")
+        return
+    df = spark.createDataFrame(data_rows)
+    view_name = f"_tmp_persist_{table_name.replace('.', '_')}"
+    df.createOrReplaceTempView(view_name)
+    spark.sql(f"CREATE OR REPLACE TABLE {table_name} AS SELECT * FROM {view_name}")
+    spark.sql(f"DROP VIEW IF EXISTS {view_name}")
+    print(f"Saved: {table_name}")
+
+# ── EDA Tables ──────────────────────────────────────────────
+
+# 1. Data Quality
+dq = results["eda"]["data_quality"]
+save_as_table([dq], "lifeexpectancy.silver.eda_data_quality")
+
+# 2. Null Analysis
+nulls_data = [
+    {"column": k, "null_count": v["null_count"], "null_percentage": v["null_percentage"]}
+    for k, v in results["eda"]["nulls"].items()
+]
+save_as_table(nulls_data, "lifeexpectancy.silver.eda_nulls")
+
+# 3. Outlier Analysis
+outliers_data = [
+    {"column": k, **v} for k, v in results["eda"]["outliers"].items()
+]
+save_as_table(outliers_data, "lifeexpectancy.silver.eda_outliers")
+
+# 4. Anomaly Analysis
+anomalies_data = [
+    {"column": k, **v} for k, v in results["eda"]["anomalies"].items()
+]
+save_as_table(anomalies_data, "lifeexpectancy.silver.eda_anomalies")
+
+# ── Diagnostic Tables ───────────────────────────────────────
+
+# 5. Correlations
+save_as_table(results["diagnostic"]["correlations"], "lifeexpectancy.silver.diag_correlations")
+
+# 6. Root Causes
+save_as_table(results["diagnostic"]["root_causes"], "lifeexpectancy.silver.diag_root_causes")
+
+# 7. Driver Analysis (cast all numerics to float to avoid type mismatch)
+drivers_data = [
+    {
+        "feature": d["feature"],
+        "min": float(d["min"]) if d["min"] is not None else None,
+        "max": float(d["max"]) if d["max"] is not None else None,
+        "mean": float(d["mean"]) if d["mean"] is not None else None,
+        "stddev": float(d["stddev"]) if d["stddev"] is not None else None,
+        "correlation_with_target": float(d["correlation_with_target"]) if d["correlation_with_target"] is not None else None,
+    }
+    for d in results["diagnostic"]["drivers"]
+]
+save_as_table(drivers_data, "lifeexpectancy.silver.diag_drivers")
+
+# 8. Insights
+insights_data = [
+    {"id": i + 1, "insight": text}
+    for i, text in enumerate(results["diagnostic"]["insights"])
+]
+save_as_table(insights_data, "lifeexpectancy.silver.diag_insights")
+
+# ── ML Model Results ────────────────────────────────────────
+
+# 9. Model Comparison
+model_data = [
+    {"model": name, "r2": metrics["r2"], "rmse": metrics["rmse"]}
+    for name, metrics in results["ml"]["model_results"].items()
+]
+save_as_table(model_data, "lifeexpectancy.silver.ml_model_comparison")
+
+print("\n" + "=" * 60)
+print("All EDA & Diagnostic results persisted to Delta tables!")
+print("=" * 60)
+print("\nTables for Power BI:")
+print("  EDA:")
+print("    • lifeexpectancy.silver.eda_data_quality")
+print("    • lifeexpectancy.silver.eda_nulls")
+print("    • lifeexpectancy.silver.eda_outliers")
+print("    • lifeexpectancy.silver.eda_anomalies")
+print("  Diagnostic:")
+print("    • lifeexpectancy.silver.diag_correlations")
+print("    • lifeexpectancy.silver.diag_root_causes")
+print("    • lifeexpectancy.silver.diag_drivers")
+print("    • lifeexpectancy.silver.diag_insights")
+print("  ML:")
+print("    • lifeexpectancy.silver.ml_model_comparison")
+print("    • lifeexpectancy.silver.life_expectancy_ml_predictions (predictions)")
