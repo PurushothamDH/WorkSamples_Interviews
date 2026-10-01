@@ -35,13 +35,13 @@
     "#3F625A"
   ],
   "foreground": "#202B2C",
-  "foregroundNeutralSecondary": "#616161",
-  "foregroundNeutralTertiary": "#BDBDBD",
+  "foregroundNeutralSecondary": "#71807A",
+  "foregroundNeutralTertiary": "#A3ADA6",
   "foregroundNeutralLight": "#707070",
   "background": "#F5F7F2",
-  "backgroundLight": "#C8C6C4",
-  "backgroundNeutral": "#C7C7C7",
-  "backgroundDark": "#E6E6E6",
+  "backgroundLight": "#EAF4EE",
+  "backgroundNeutral": "#E3EAE4",
+  "backgroundDark": "#DCE6DE",
   "secondaryBackground": "#EAF4EE",
   "tableAccent": "#178F83",
   "accent": "#178F83",
@@ -108,7 +108,7 @@
             "gridlineStyle": "solid",
             "gridlineColor": {
               "solid": {
-                "color": "#F0F0F0"
+                "color": "#E7ECE7"
               }
             },
             "concatenateLabels": false,
@@ -116,7 +116,7 @@
             "fontSize": 10.5,
             "labelColor": {
               "solid": {
-                "color": "foregroundNeutralSecondary"
+                "color": "#71807A"
               }
             }
           }
@@ -128,14 +128,14 @@
             "gridlineStyle": "solid",
             "gridlineColor": {
               "solid": {
-                "color": "#F0F0F0"
+                "color": "#E7ECE7"
               }
             },
             "titleFontSize": 10.5,
             "fontSize": 10.5,
             "labelColor": {
               "solid": {
-                "color": "foregroundNeutralSecondary"
+                "color": "#71807A"
               }
             }
           }
@@ -179,6 +179,11 @@
         "background": [
           {
             "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
             "transparency": 0
           }
         ],
@@ -186,23 +191,23 @@
           {
             "show": true,
             "width": 1,
-            "radius": 8,
+            "radius": 6,
             "color": {
               "solid": {
-                "color": "#E6E6E6"
+                "color": "#E1E8E2"
               }
             }
           }
         ],
         "dropShadow": [
           {
-            "show": false,
+            "show": true,
             "preset": "Custom",
             "angle": 90,
-            "shadowDistance": 1,
-            "shadowBlur": 3,
+            "shadowDistance": 2,
+            "shadowBlur": 6,
             "shadowSpread": 0,
-            "transparency": 86
+            "transparency": 88
           }
         ],
         "spacing": [
