@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "outliersByYear",
+  "position": {
+    "x": 655,
+    "y": 20,
+    "z": 0,
+    "height": 300,
+    "width": 610
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "lifeexpectancy_outliners"
+                    }
+                  },
+                  "Property": "Year"
+                }
+              },
+              "queryRef": "Year",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "lifeexpectancy_outliners"
+                    }
+                  },
+                  "Property": "Adult_Mortality_Outlier"
+                }
+              },
+              "queryRef": "Sum(Adult_Mortality_Outlier)",
+              "displayName": "Adult Mortality"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "lifeexpectancy_outliners"
+                    }
+                  },
+                  "Property": "Life_expectancy_Outlier"
+                }
+              },
+              "queryRef": "Sum(Life_expectancy_Outlier)",
+              "displayName": "Life Expectancy"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Outlier Flags by Year'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "howCreated": "Copilot"
+}

@@ -1,0 +1,166 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "immunizationCoverage",
+  "position": {
+    "x": 20,
+    "y": 555,
+    "z": 0,
+    "height": 480,
+    "width": 920
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "life_expectancy"
+                    }
+                  },
+                  "Property": "Year"
+                }
+              },
+              "queryRef": "Year",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "life_expectancy"
+                    }
+                  },
+                  "Property": "Hepatitis_B"
+                }
+              },
+              "queryRef": "Average(Hepatitis_B)",
+              "displayName": "Hepatitis B"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "life_expectancy"
+                    }
+                  },
+                  "Property": "Polio"
+                }
+              },
+              "queryRef": "Average(Polio)",
+              "displayName": "Polio"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "life_expectancy"
+                    }
+                  },
+                  "Property": "Diphtheria"
+                }
+              },
+              "queryRef": "Average(Diphtheria)",
+              "displayName": "Diphtheria"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Immunization Coverage Trends'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "2a8dd5bba2378ed59d3d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "life_expectancy"
+              }
+            },
+            "Property": "Year"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "e94029046b00d7275900",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "life_expectancy"
+              }
+            },
+            "Property": "Hepatitis_B"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "10fb5fa0ed5441117ee4",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "life_expectancy"
+              }
+            },
+            "Property": "Polio"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "53b88de13e407e9597e7",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "life_expectancy"
+              }
+            },
+            "Property": "Diphtheria"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  },
+  "howCreated": "Copilot"
+}

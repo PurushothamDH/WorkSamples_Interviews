@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "d7bff639eb2401931824",
+  "displayName": "EDA - Blanks, Outliers and Anomalies",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "howCreated": "Copilot"
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "bmiScatter",
+  "position": {
+    "x": 20,
+    "y": 360,
+    "z": 0,
+    "height": 320,
+    "width": 610
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Legend": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "life_expectancy"
+                    }
+                  },
+                  "Property": "thinness_1_19_years"
+                }
+              },
+              "queryRef": "thinness_1_19_years"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "life_expectancy"
+                    }
+                  },
+                  "Property": "BMI"
+                }
+              },
+              "queryRef": "BMI",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "life_expectancy"
+                    }
+                  },
+                  "Property": "Life_expectancy"
+                }
+              },
+              "queryRef": "Life_expectancy"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'BMI vs Life Expectancy - Color by Thinness'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "howCreated": "Copilot"
+}

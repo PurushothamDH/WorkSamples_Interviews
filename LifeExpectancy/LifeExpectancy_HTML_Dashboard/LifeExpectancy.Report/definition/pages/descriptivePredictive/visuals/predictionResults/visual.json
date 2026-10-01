@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "predictionResults",
+  "position": {
+    "x": 20,
+    "y": 700,
+    "z": 0,
+    "width": 610,
+    "height": 340
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "lifeexpectancy_predictions"
+                    }
+                  },
+                  "Property": "PrimaryKey"
+                }
+              },
+              "queryRef": "PrimaryKey"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "lifeexpectancy_predictions"
+                    }
+                  },
+                  "Property": "Actual_Life_expectancy"
+                }
+              },
+              "queryRef": "Actual_Life_expectancy"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "lifeexpectancy_predictions"
+                    }
+                  },
+                  "Property": "Predicted_Life_expectancy"
+                }
+              },
+              "queryRef": "Predicted_Life_expectancy"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "lifeexpectancy_predictions"
+                    }
+                  },
+                  "Property": "Residual"
+                }
+              },
+              "queryRef": "Residual"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Predictive Results - Actual, Predicted and Residual'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "howCreated": "Copilot"
+}
